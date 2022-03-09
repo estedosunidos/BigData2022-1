@@ -11,7 +11,7 @@ for line in sys.stdin:
         total=int(count)
 
         if current_word == word:
-		current_count += total
+                current_count += total
                 promedio+=1
         else:
                 if current_word:
